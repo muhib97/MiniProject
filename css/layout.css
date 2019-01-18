@@ -1,0 +1,297 @@
+body
+{
+margin: 0;
+}
+#container
+{
+
+    width:1280px;
+    margin: auto;
+    padding:0;
+    background-color:#ebebeb;
+}
+
+#header
+{
+    width:100%;
+    height: 120px;
+    background-color:#9C519F;
+
+}
+#logo
+{
+    width:25%;
+    height:100%;
+    background-color: aqua;
+    float: left;
+}
+#logo img
+{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#slogan
+{
+    width:75%;
+    height: 100%;
+    background-color: #9C519F;
+    float: right;
+}
+
+#slogan h1
+{
+
+    color:yellow;
+text-align: center;
+font-family:Calibri;
+font-style: italic;
+margin-top:20px;
+margin-bottom: 0%;
+font-size:50;
+}
+#slogan p
+{
+    color:aqua;
+  margin: 0%;
+    padding:0 ;
+text-align: center;
+font-style: italic;
+
+
+}
+
+
+
+#nav
+{
+    width:100%;
+    height: 50px;
+    background-color:black;
+}
+
+#nav ul
+{
+    padding-top: 5px;
+    margin: 0;
+list-style: none;
+
+}
+#nav ul li
+{
+float: left;
+margin:0;
+padding-top: 3px;
+}
+#nav ul li a
+{
+text-decoration: none;
+display: block;
+padding: 10px 8px 10px 8px;
+background-color: black;
+color:white;
+}
+#nav ul li a:hover
+{
+    background-color: rgb(80, 82, 83);
+    border-radius: 30px;
+    font-style: italic;
+}
+
+
+
+#article
+{
+    width:80%;
+    height: 500px;
+    background-color:#8AC63F;
+    float:left;
+}
+
+#heading
+{
+    text-decoration: underline;
+    color:red;
+    font-style: italic;
+    font-family:sans-serif;
+    margin-left:15px;
+}
+#heading3
+{
+    font-family: calibri;
+    margin-left:15px; 
+    
+}
+#oss
+{
+    display: bold;
+    text-decoration: underline;
+    font-family: Calibri;
+}
+
+ #images 
+{
+    width:500px; 
+    height:150px;
+   margin-left: 25%;
+}
+
+#about
+{
+    display:bold;
+    font-family: calibri;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20;
+
+}
+#form
+{
+    margin-left:15px;
+}
+input,textarea,select{
+
+    color:blue;
+    border-radius: 25px;
+
+}
+input[type=submit]
+{
+    margin-left:50px;
+    color: black;
+}
+select
+{
+    color: black;
+}
+input[type=reset]
+{
+
+    color: black;
+    margin-left:6px; 
+}
+
+#sidebar
+{
+    width:20%;
+    height: 500px;
+    background-color:#C82827;
+    float:right;
+
+}
+#help h1
+{
+    margin-left:15px;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+#help ul li a
+{
+text-decoration: none;
+display: bold;
+}
+#help ul li a:hover
+{
+    font-style: italic;
+    color:gold;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#sidebar h1
+{
+
+    margin-left:15px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;;
+}
+
+#sidebar a
+{
+    margin-top: 0;
+    margin-left:10px;
+    background-color: none;
+
+}
+
+#sidebar a button
+{
+
+    padding:0;
+    margin-left:2px;
+    border-style:none;
+    background-color:#C82827;
+
+}
+
+.icons
+{
+    cursor: pointer;
+border-radius: 35px;
+    width:50px;
+    height: 50px;
+}
+
+#Onlinesites
+{
+    margin-top:50px;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+#Onlinesites a
+{
+    margin-top: 0;
+    margin-left:10px;
+    background-color: none;
+
+}
+
+
+#Onlinesites a button
+{
+    padding:0;
+    margin-left:28px;
+    border-style:none;
+    background-color: #8AC63F;
+    margin-bottom: 40px;
+
+}
+#Onlinesites .pspace
+{
+    padding: 1% 5% 1% 5%;
+    width:100%;
+    margin:auto;
+}
+.logo
+{
+    cursor: pointer;
+
+        width:150px;
+        height: 100px;
+    }
+
+
+
+
+
+#footer
+{
+    width:100%;
+    height: 60px;
+    background-color:darkslategrey;
+    clear:both;
+} 
+#footer p
+{
+    padding-top: 15px;
+text-align: center;
+color:white;
+margin-top:20px; 
+}
+
